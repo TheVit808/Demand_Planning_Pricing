@@ -1,0 +1,6 @@
+region_id,region_name,state,region_demand_multiplier,regional_cost_multiplier
+R01,Sudeste,SP,1.25,0.97
+R02,Sul,PR,0.92,0.99
+R03,Nordeste,BA,0.83,1.03
+R04,Centro-Oeste,GO,0.67,1.02
+R05,Norte,PA,0.48,1.06

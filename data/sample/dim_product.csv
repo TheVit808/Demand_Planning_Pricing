@@ -1,0 +1,13 @@
+product_id,product_name,category,list_price_brl,unit_cost_brl,abc_class
+P001,Café Premium 500g,Mercearia,24.9,13.2,A
+P002,Café Tradicional 500g,Mercearia,16.9,8.1,A
+P003,Azeite Extra Virgem 500ml,Mercearia,39.9,22.0,C
+P004,Arroz Tipo 1 5kg,Mercearia,31.9,18.4,B
+P005,Shampoo Hidratante 400ml,Higiene,21.9,10.6,C
+P006,Sabonete Líquido 250ml,Higiene,12.9,5.4,B
+P007,Fralda Infantil M 30un,Bebês,48.9,29.0,C
+P008,Lenço Umedecido 48un,Bebês,11.9,5.1,A
+P009,Ração para Cães 10kg,Pet,119.9,75.0,C
+P010,Areia Higiênica 4kg,Pet,28.9,16.3,C
+P011,Fone Bluetooth,Eletrônicos,89.9,52.0,C
+P012,Carregador USB-C,Eletrônicos,39.9,19.0,B
