@@ -1,0 +1,5 @@
+experiment_id,run_date,model,feature_set,split,parameters,wape,mae,rmse,observations,fit_seconds,notes
+exp_001,2026-10-13T16:12:22,seasonal_naive_7d,lag_7,validation,"{""lag_days"": 7}",0.35672997522708505,0.27845303867403315,0.558543224889517,10860,,Baseline sazonal semanal.
+exp_002,2026-10-13T16:12:22,ridge,calendar_price_lags,validation,"{""alpha"": 10.0}",0.4727788187196306,0.3690373891608019,0.5062770533933554,10860,0.15685510000912473,Regressão linear regularizada.
+exp_003,2026-10-13T16:12:22,random_forest,calendar_price_lags,validation,"{""n_estimators"": 250, ""max_depth"": 14, ""min_samples_leaf"": 3, ""random_state"": 42}",0.30791506151522313,0.24034953742767465,0.35005120825910413,10860,5.217014599998947,Árvore ensemble não linear.
+exp_004,2026-10-13T16:12:22,exponential_smoothing,historical_series,validation,"{""trend"": ""add"", ""seasonal"": ""add"", ""seasonal_periods"": 7}",0.4989566392678891,0.389471034168867,0.5449647011755424,10860,,Modelo temporal por série produto-região.
