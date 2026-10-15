@@ -1,0 +1,11 @@
+{
+  "elasticity_source": "elasticity_by_product",
+  "demand_cap_by_stock": true,
+  "use_anomaly_rows": false,
+  "base_period": "validation_without_known_anomalies",
+  "scenario_unit": "daily_product_region",
+  "inventory_risk_threshold": 0.8,
+  "deep_discount_warning": 0.35,
+  "max_price_change": 0.3,
+  "min_price_change": -0.3
+}

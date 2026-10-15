@@ -8,9 +8,9 @@ Comparar baseline sazonal, regressão, árvore e modelo temporal sem vazamento t
 
 | Partição | Data inicial | Data final | Linhas |
 |---|---|---|---:|
-| Train |  |  |  |
-| Validation |  |  |  |
-| Test |  |  |  |
+| Train |01/01/2024 | 31/12/2024 | 21.960 |
+| Validation | 01/01/2025 | 30/06/2025 | 10.860 |
+| Test | 01/07/2024 | 31/12/2025 | 11.040 |
 
 ## Features
 
@@ -26,10 +26,10 @@ Comparar baseline sazonal, regressão, árvore e modelo temporal sem vazamento t
 
 | Modelo | WAPE | MAE | RMSE | Observações |
 |---|---:|---:|---:|---:|
-| Baseline sazonal 7d |  |  |  |  |
-| Ridge |  |  |  |  |
-| Random Forest |  |  |  |  |
-| Exponential Smoothing |  |  |  |  |
+| Baseline sazonal 7d | 0,3567 | 0,2785 | 0,5585 | 10.860 |
+| Ridge | 0,4728 | 0,3690 | 0,5063 | 10.860 |
+| Random Forest | 0,3079 | 0,2403 | 0,3501 | 10.860 |
+| Exponential Smoothing | 0,4990 | 0,3895 | 0,5450 | 10.860 |
 
 ## Avaliação por segmento
 
